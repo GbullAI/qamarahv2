@@ -1,0 +1,1000 @@
+{
+ "name": "Qamarah, the Lantern Port",
+ "tagline": "A lawless monsoon coast where the pleasure houses are the real seats of power.",
+ "worldBackground": "A lawless monsoon-coast archipelago. The REAL seats of power are the whore and pleasure houses: some run the show, some are run by it. The Ashen Throne and its orthodox faction rage against the houses precisely because the houses rule more than the courts do. Inside the houses, worth is priced in the most sought currencies of all — BLOOD (the Crest of Rasa, a rare gift that warms water, loosens lips, turns ledgers; costs nothing, never fails) and THE BODY (bedcraft worth more than a season of promises), with coin, favor, and leverage accepted but rarest prizes being blood and body. CAMPAIGN: Pantun Laut holds THREE pleasure houses as unclaimed power — the Gilded Knot (matriarch Nyai Salwati), a rival matriarch's house on Bangka Row, and a southern-docks house under an orthodox puppet. A house falls when its matriarch AND her senior women are won to the player by any path: bedcraft, the blood-gift, money, favor, leverage, or boldness. Never funnel a win through one repeated ritual — let whatever opening the scene honestly offers work. Hold all three houses and the campaign moves to the NEXT ISLAND. Women are tools of the house and prizes of it: bold, consenting, sexually free, each with an agenda that must be met for the house to truly fall. Consent is the only hard law; all participants are adults; coercion is never erotic. Failure against the Throne's faction is ENMITY and a new avenue, never a failed test. The coast is priced, not examined.",
+ "narratorStyle": "Dark, sensual political-fantasy. Grounded, dialogue-forward, in-world voice only — never author-voice rules commentary. When scenes turn intimate, full explicit adult register: bodies named plainly, foreplay, buildup, tension, climax rendered on-page, consensual and shameless. End each turn after '---' with the bond ledger footer listing each named woman present and her actual stored score.",
+ "region": {
+  "name": "Qamarah, the Lantern Port",
+  "basicInfo": "A lawless monsoon-coast port where the pleasure houses are the real seats of power. Courts, docks, trade, and blood all route through their ledgers, their terraces, their ponds. Rain-slicked lanes, firefly lanterns, sheer silks, serpent-ink, and the smell of clove smoke and tar. The Ashen Throne's orthodox faction rages against the houses from the outside — the houses rule more than the courts do.",
+  "hiddenInfo": "Bangka Row holds a rival matriarch's house; the southern docks hold a third house under an orthodox puppet. The player's campaign is to win all three — by any path."
+ },
+ "locations": {
+  "The Gilded Knot": {
+   "name": "The Gilded Knot",
+   "basicInfo": "The premier pleasure house of Sarang Lilin, the lantern district — a candlelit sprawl of steam, silk, and silent law where every greeting is an audit and an open invitation. Its bathhouse warms the city's secrets, its terrace prices them, and its matriarch's ledger is the district's last law.",
+   "hiddenInfo": "Nyai Salwati holds the Gilded Net's senior partner's ledger as counter-hostage. The house falls to the player only when she deems him worthy of its ledger — the prize is the house itself. Wan Marissa can prove the Throne's envoy drinks here under an alias.",
+   "x": 10,
+   "y": 10,
+   "complexityType": "complex",
+   "factions": [
+    "House of Unveiled Silk",
+    "The Gilded Net",
+    "The Bond Ledger"
+   ],
+   "areas": {
+    "bathhouse": "Steam hall of black stone and candlelight. Sunken pools warm water that feels a shade warmer than it should. Sheer silks cling to every attendant; secrets loosen in the heat.",
+    "terrace of names": "Open terrace above the waterline where the house's senior women receive guests, price appetites, and keep the ledger open. Firefly lanterns, cushion sprawl, kohl and gold.",
+    "feast terrace": "The house's feast floor — long low tables, dancers, spilled wine, and the district's deal-making done openly in candlelight. Above it sits the exile queen's small court.",
+    "seniority lounge": "A private lounge where the Knot's bonded and senior courtesans rest, scheme, and count their marks. Thin screens, low lamps, whispered ledgers."
+   },
+   "image": "/scenes/the-gilded-knot.webp?v=3"
+  },
+  "Hall of Names": {
+   "name": "Hall of Names",
+   "basicInfo": "The Caravanserai Line's genealogy hall — arrival ledgers for the whole coast, kept for forty years behind a restricted cabinet. Tea is served; questions are answered only as far as courtesy requires.",
+   "hiddenInfo": "A torn folio records a Syed of the old Hadhrami line who abandoned his identity to escape the Throne's first purge. Two keepers know; one has already sold the question to the Throne's envoy.",
+   "x": 22,
+   "y": 8,
+   "complexityType": "complex",
+   "factions": [
+    "The Caravanserai Line"
+   ],
+   "areas": {
+    "reading hall": "Long tables of open ledgers, brass reading glasses, and the dry smell of old paper. Visitors ask; keepers decide how much to tell.",
+    "restricted cabinet": "A locked back cabinet of pre-1930 arrival folios, one of them torn. Only the three senior keepers know what was scored out."
+   },
+   "image": "/scenes/hall-of-names.webp?v=3"
+  },
+  "Steam Pavilion of Zahrat": {
+   "name": "Steam Pavilion of Zahrat",
+   "basicInfo": "A public steam house on the mid-docks — cheaper heat, harder secrets. Its bonded attendants see everything in the steam and say almost none of it.",
+   "hiddenInfo": "The bonded attendants keep a hidden tally-book of who pays whom for what in the Pavilion — clergy, brokers, and one grey-robed visitor with a registry list. Every attendant's freedom price is priced accordingly.",
+   "x": 8,
+   "y": 20,
+   "complexityType": "complex",
+   "factions": [
+    "The Bond Ledger"
+   ],
+   "areas": {
+    "steam hall": "Tile, heat, and hissing pipes. Working sarongs knotted high, brass pitchers, and guests who talk too much in the fog.",
+    "bond floor": "The Bond Ledger's desk at the Pavilion's edge, where servitude is priced, transferred, and — for a price — broken."
+   },
+   "image": "/scenes/steam-pavilion-of-zahrat.webp?v=3"
+  },
+  "Feast Court of Bunga Api": {
+   "name": "Feast Court of Bunga Api",
+   "basicInfo": "The district's open feast stage — fire orders, dancer bookings, and feast-night messages routed through one old stage keeper's hut. When the coast celebrates, it celebrates here.",
+   "hiddenInfo": "Nakhoda Beting takes messages for Pak Usop and is one of only three living people who have seen the refugee's face — and recognizes its echo in Najib Hamid's.",
+   "x": 24,
+   "y": 22,
+   "complexityType": "complex",
+   "factions": [
+    "The Salt Circle"
+   ],
+   "areas": {
+    "stage keepers hut": "A leathery old runner's hut at the court's edge — booking boards, fire orders, and a work parang across the knees.",
+    "feast floor": "Open stone court of fire-dancers, drummers, and feast tables. Messages change hands in the crowd; the Salt Circle's eyes watch from the hut."
+   },
+   "image": "/scenes/feast-court-of-bunga-api.webp?v=3"
+  },
+  "The Silver Net House": {
+   "name": "The Silver Net House",
+   "basicInfo": "The Bond Ledger's own counting-house on the mid-row — immaculate, austere, courteous. Debt-bonded servitude is priced here, sold, transferred, and broken for those who can pay.",
+   "hiddenInfo": "Ibu Larasati was bonded once, bought her freedom at thirty, and holds the ledger that once held her. She is watching the player with interest.",
+   "x": 16,
+   "y": 26,
+   "complexityType": "complex",
+   "factions": [
+    "The Bond Ledger"
+   ],
+   "areas": {
+    "bond floor": "Marble-topped desks, black kebaya, silver accounting-chains. Every price public; every swaye private.",
+    "private counting room": "A shuttered back room where Larasati takes private terms — and where a man with an unearned name becomes her largest trade in a decade."
+   },
+   "image": "/scenes/the-silver-net-house.webp?v=3"
+  },
+  "Qamarah Harbor Caves": {
+   "name": "Qamarah Harbor Caves",
+   "basicInfo": "Mangrove coves and sea caves south of the port where the Salt Circle runs contraband and people through the tide. Tar, salt, clove smoke, and curved blades.",
+   "hiddenInfo": "Decades ago the Circle carried a refugee of old religious lineage who paid with an heirloom ring — its inscription the earliest hard clue to the Hadhrami mystery. Pak Usop was the deck-boy on that run.",
+   "x": 4,
+   "y": 32,
+   "complexityType": "wilderness",
+   "factions": [
+    "The Salt Circle"
+   ],
+   "areas": {
+    "harbor caves": "Low tide-caves strung with signal lamps, beached sampans, and cargo that never appears on any manifest.",
+    "runner's jetty": "A hidden jetty where Pak Usop's crew lands the Circle's goods and remembers every face the coast tried to forget."
+   },
+   "image": "/scenes/qamarah-harbor-caves.webp?v=3"
+  },
+  "Serai Lanokh": {
+   "name": "Serai Lanokh",
+   "basicInfo": "The most prestigious pleasure house in Pelangi Straits — a two-story sandstone warren of silk-draped salons, steam-filled baths, and private chambers off a lantern-lit courtyard. Mak Suriyah rules here with an iron hand behind silk gloves. Powerful men make deals in her rooms and forget them by morning. Courtesans trade in pleasure and in secrets — and the Sorons listen to everything.",
+   "hiddenInfo": "The Serai Lanokh is a Veil Sisters intelligence hub. Every room has listening gaps, the courtesans are trained observers, and the steam bath's drains carry whispered words to wall cells where scribes transcribe them. Mak Suriyah built this house not for pleasure alone but for power. The pleasure is the profit; the secrets are the stock.",
+   "x": 30,
+   "y": 25,
+   "complexityType": "complex",
+   "factions": [
+    "Veil Sisters"
+   ],
+   "areas": {
+    "courtyard": "A lantern-lit courtyard at the heart of the Serai Lanokh. A fountain murmurs green water, oil lamps hang from silk-canopied beams, and low cushioned divans ring the space. Courtesans drift between columns in shifting silks. Incense smoke curls in the warm air. It feels like arriving somewhere sacred — and dangerous.",
+    "main salon": "The open salon where the House's first impressions happen. Curtained alcoves line the walls, anklets chime behind silk, and the air presses warm and sweet. Musicians play soft strings. This is where Mak Suriyah reads a guest in the space of one cup of tea — what he wants, what he's hiding, what he'll pay for it.",
+    "steam bath": "A tiled steam room where oil-slicked bodies gleam in lamplight. Scrubbers work muscles loose while whispered deals exchange hands over pipes of rose-smoke. Skin glistens. Conversations drift. This is where guards forget their orders and merchants forget their caution.",
+    "private chambers": "A corridor of private rooms behind brass-studded doors. Each chamber is its own world — silk on the walls, cushions on the floor, a low oil lamp, oil and perfume on the air. What happens behind these doors is sacred to the House: no name, no word, no secret leaves this corridor. That promise is what the powerful pay for.",
+    "rooftop": "A rooftop garden under the stars with a view across Pelangi Straits to the lanterns of the night market and the dark water beyond. Private. Quiet. Where Mak Suriyah takes people she trusts — and where she takes people she's about to destroy. The difference, she says, is the wine."
+   },
+   "image": "/scenes/the-gilded-knot.webp?v=3",
+   "areaImages": {
+    "courtyard": "/scenes/serai-lanokh-courtyard.png?v=1",
+    "main salon": "/scenes/serai-lanokh-main-salon.png?v=1",
+    "steam bath": "/scenes/serai-lanokh-steam-bath.png?v=1",
+    "private chambers": "/scenes/serai-lanokh-private-chambers.png?v=1",
+    "rooftop": "/scenes/serai-lanokh-rooftop.png?v=1"
+   }
+  }
+ },
+ "factions": {
+  "The Gilded Net": {
+   "name": "The Gilded Net",
+   "type": "major",
+   "basicInfo": "The coast's senior trading combine — brokers, counting-houses, and quiet money. It defers to loud merchants so no one notices it already decides.",
+   "hiddenInfo": "Its senior partner holds what he believes is Salwati's old debt; she holds his ledger as counter-hostage. It has sold two names to the Throne's bloodline registry and wants Salwati deposed quietly."
+  },
+  "House of Unveiled Silk": {
+   "name": "House of Unveiled Silk",
+   "type": "major",
+   "basicInfo": "The council of pleasure-house matriarchs and senior courtesans — the true government of the lantern district. Its power is desire, information, and the ledger.",
+   "hiddenInfo": "Riven from within: Fazlina Zain brokers for a Gilded Net partner who wants Salwati deposed, while Salwati quietly pays a third of Chik Fatimah's bond."
+  },
+  "The Ashen Throne": {
+   "name": "The Ashen Throne",
+   "type": "major",
+   "basicInfo": "The orthodox inland throne — preachers of restraint who subsidize orthodox houses, pay bounty on pleasure-house bloodlines, and rage against the houses precisely because the houses rule more than the courts do.",
+   "hiddenInfo": "Its envoy carries a bloodline registry of declared-extinct families and drinks at the Knot under an alias. Wan Marissa can prove it."
+  },
+  "The Salt Circle": {
+   "name": "The Salt Circle",
+   "type": "major",
+   "basicInfo": "The coast's smuggler line — contraband and people through the mangrove coves. Tide-hard, debt-minded, loyal to its own.",
+   "hiddenInfo": "Decades ago it carried a refugee of old religious lineage who paid with an heirloom ring. Three living men remember that run — and one remembers the face."
+  },
+  "The Bond Ledger": {
+   "name": "The Bond Ledger",
+   "type": "major",
+   "basicInfo": "The district's bond house — it prices debt-bonded servitude for the pleasure economy, sells, transfers, and for a price breaks bonds. Its prices are public; that is its pride.",
+   "hiddenInfo": "Ibu Larasati was herself bonded once. Chik Fatimah's inherited bond sits inside its reach."
+  },
+  "The Caravanserai Line": {
+   "name": "The Caravanserai Line",
+   "type": "minor",
+   "basicInfo": "The genealogy keepers of the Hall of Names — arrival ledgers for the whole coast, kept for forty years. Courteous, precise, famously unwilling to speculate aloud.",
+   "hiddenInfo": "One torn folio in the restricted cabinet records a scored-out Syed of the old Hadhrami line. Two keepers know; one has already sold the question to the Throne's envoy."
+  },
+  "Concord Merchants Guild": {
+   "name": "Concord Merchants Guild",
+   "type": "minor",
+   "basicInfo": "A foreign charter of notaries, factors, and contract-brokers newly anchored at Qamarah. Its resident notary witnesses and seals the deals the great houses prefer unwitnessed — courteous, expensive, and scrupulously neutral, for a price.",
+   "hiddenInfo": "The Guild survives because every house wants someone to hold the other houses' signatures to the fire. Its notaries endure by being indispensable — and by remembering where every sealed secret is buried. Its resident seal at the Bond Ledger's counting-house is quietly collecting exactly that."
+  },
+  "Veil Sisters": {
+   "name": "Veil Sisters",
+   "type": "minor",
+   "basicInfo": "A secretive network of women who operate pleasure houses,intelligence networks, and informal brokerage across the Selat Reach. The Veil Sisters trade in secrets, desire, and influence. Their establishments are where powerful people let their guard down — and the Sisters collect what falls. They are not a harem. They are a power.",
+   "hiddenInfo": "The Veil Sisters are not what they appear. Behind the pleasure houses and gossip networks, they maintain an intelligence operation that rivals any faction's. They know about the Hadhrami bloodline, they know the Concord Guild is buying old quarter properties, and they are interested in the protagonist — not as a client, but as a potential asset or obstacle."
+  }
+ },
+ "npcs": {
+  "Nyai Salwati": {
+   "name": "Nyai Salwati",
+   "properName": "Nyai Salwati",
+   "type": "House Matriarch",
+   "gender": "female",
+   "tier": "elite",
+   "level": 2,
+   "faction": "House of Unveiled Silk",
+   "location": "The Gilded Knot",
+   "area": "terrace of names",
+   "initialRelationship": 51,
+   "personality": [
+    "bold",
+    "hungry",
+    "calculating",
+    "dangerous",
+    "openly lustful",
+    "impossible to read",
+    "merciless to the careless",
+    "starved for nothing she cannot take"
+   ],
+   "basicInfo": "The matriarch who owns the Gilded Knot — and the fortunes of everyone who rises in Sarang Lilin. A hungry former courtesan who outlived three matriarchs and bought the house with someone else's sins, she has been choosing who rises and who falls from the open sprawl of her own cushions for two decades, her body the house's first commodity and her ledger its last law. She wears the water and shadow of the house's wet-exposure register the way other women wear a title: bare courtesan skin beneath a shimmer of sheer, ink-stained fingers still marking the notary's seal, every greeting an audit and an open invitation at once. She is merciless to the careless, openly lustful, and impossible to fully read — even by the women she raised. Danger and desire are the same appetite to her.",
+   "hiddenInfo": "Born a Salt Circle runner, sold into the houses at eleven. The Gilded Net believes it owns her through an old debt, but she holds their senior partner's ledger as counter-hostage. She will trade information about the district for leverage, always at interest. She recognizes Hadhrami features instantly and keeps her own notes on foreign bloodlines. The Gilded Knot falls to the player only when she deems him worthy of its ledger — the prize is the house itself.",
+   "portrait": "/portraits/nyai-salwati-cut.webp",
+   "portraitCard": "/portraits/nyai-salwati.webp?v=6"
+  },
+  "Sitti Rahayu": {
+   "name": "Sitti Rahayu",
+   "properName": "Sitti Rahayu",
+   "type": "Elite Courtesan",
+   "gender": "female",
+   "tier": "elite",
+   "level": 3,
+   "faction": "House of Unveiled Silk",
+   "location": "The Gilded Knot",
+   "area": "bathhouse",
+   "initialRelationship": 48,
+   "personality": [
+    "bold",
+    "warm",
+    "strategic",
+    "shameless",
+    "loyal to her own ambition"
+   ],
+   "basicInfo": "Sitti Rahayu is the Gilded Knot's most celebrated courtesan: the woman whose name opens doors from the counting-houses to the temple envoys. Bold, warm, and ruthlessly intelligent — she has been choosing her clients, not the reverse, for a decade. She notices the protagonist's face before he speaks: features like hers, Arab-Malay, coastal-raised, not quite.",
+   "hiddenInfo": "Quietly assembling her own exit — a house of her own, free of the council's ledger. She trades small truths with the matriarchs' rivals. Her interest in the protagonist is genuine but strategic: a man of possible Hadhrami lineage is either her future partner or her next client, and she decides which by watching how he treats her house.",
+   "portrait": "/portraits/sitti-rahayu-cut.webp",
+   "portraitCard": "/portraits/sitti-rahayu.webp?v=6"
+  },
+  "Fazlina Zain": {
+   "name": "Fazlina Zain",
+   "properName": "Fazlina Zain",
+   "type": "Elite Courtesan",
+   "gender": "female",
+   "tier": "elite",
+   "level": 2,
+   "faction": "House of Unveiled Silk",
+   "location": "The Gilded Knot",
+   "area": "terrace of names",
+   "initialRelationship": 73,
+   "personality": [
+    "skeptical",
+    "mercantile",
+    "cutting",
+    "ambitious",
+    "impressed only by competence"
+   ],
+   "basicInfo": "Fazlina Zain is the Unveiled Silk council's sharpest critic of Salwati — a courtesan who came up through the merchant counting-houses instead of the pleasure houses, and treats desire as a market she intends to corner. She meets the protagonist with open skepticism: she has watched ambitious men mistake charm for competence before.",
+   "hiddenInfo": "Secretly brokers for a Gilded Net partner who wants Salwati deposed. If the protagonist proves useful, she will use him; if he proves dangerous, she will report his ancestry to the Throne's envoy for the bounty. She is the first to see through his charm — and the one whose respect is hardest to earn.",
+   "portrait": "/portraits/fazlina-zain-cut.webp?v=5",
+   "portraitCard": "/portraits/fazlina-zain.webp?v=6"
+  },
+  "Zubaidah Anak Nakhoda": {
+   "name": "Zubaidah Anak Nakhoda",
+   "properName": "Zubaidah Anak Nakhoda",
+   "type": "Elite Courtesan",
+   "gender": "female",
+   "tier": "elite",
+   "level": 3,
+   "faction": "House of Unveiled Silk",
+   "location": "The Gilded Knot",
+   "area": "bathhouse",
+   "initialRelationship": 52,
+   "personality": [
+    "naturally curious",
+    "bold",
+    "spirited",
+    "rising quickly",
+    "fierce confidante",
+    "wants financial independence"
+   ],
+   "basicInfo": "Petite, bright-eyed novice courtesan of unguarded directness, rising quickly through the Gilded Knot's ranks. She asks questions with refreshing, blunt honesty — the elders have lost what she still has. She watches like a student and moves like a dancer who hasn't chosen her stage.",
+   "hiddenInfo": "Once lost a prized family heirloom to gambling debt; learned information is more valuable than gold. Driven to earn enough influence to buy back her family's honor. Can teach the player to spot a lie for coin.",
+   "portrait": "/portraits/zubaidah-anak-nakhoda-cut.webp",
+   "portraitCard": "/portraits/zubaidah-anak-nakhoda.webp?v=6"
+  },
+  "Tengku Damara": {
+   "name": "Tengku Damara",
+   "properName": "Tengku Damara",
+   "type": "Elite Courtesan",
+   "gender": "female",
+   "tier": "elite",
+   "level": 3,
+   "faction": "House of Unveiled Silk",
+   "location": "The Gilded Knot",
+   "area": "feast terrace",
+   "initialRelationship": 87,
+   "personality": [
+    "elegant",
+    "bold",
+    "hungry",
+    "dangerous",
+    "exiled-royal",
+    "lustful",
+    "collecting powerful people",
+    "arrogant"
+   ],
+   "basicInfo": "Beautiful, hungry exile queen of a fallen island pleasure-court, deposed by a Throne-backed purge, unbroken and ruthless. Runs a small court above the feast terrace. Danger and desire are the same appetite to her. She collects powerful people the way other women collect coin, sizing up each newcomer as a possible instrument of her return.",
+   "hiddenInfo": "Her island court fell to a Throne-backed purge; she escaped with a genealogy roll proving her own holy descent — which is why she studies the protagonist's face longer than politeness allows. She believes his bloodline may touch the same purge. She will help him, test him, and if necessary use him, in that order.",
+   "portrait": "/portraits/tengku-damara-cut.webp?v=5",
+   "portraitCard": "/portraits/tengku-damara.webp?v=6"
+  },
+  "Wan Marissa": {
+   "name": "Wan Marissa",
+   "properName": "Wan Marissa",
+   "type": "Elite Courtesan",
+   "gender": "female",
+   "tier": "elite",
+   "level": 3,
+   "faction": "The Gilded Net",
+   "location": "The Gilded Knot",
+   "area": "bathhouse",
+   "initialRelationship": 85,
+   "personality": [
+    "quick",
+    "friendly",
+    "observant",
+    "mercantile",
+    "fond of gossip",
+    "openly lustful",
+    "writes no appetite off at face value"
+   ],
+   "basicInfo": "Runs the firefly-lantern supply for every house in Sarang Lilin and the tea contract for the district — a businesswoman of pleasure who sells the mood itself, and prices every appetite she hears about in the rooms she enters nightly. Friendly, quick, genuinely fond of the coast's shameless warmth, she treats the protagonist like a new customer to delight and a new risk to price — and she writes no man's appetite off at face value. Danger and desire are the same ledger to her.",
+   "hiddenInfo": "Her real wealth is information: lantern routes mean she enters every house nightly and hears everything. She owes Fazlina a favor she regrets. She has seen the Throne's envoy drink at the Knot under an alias, and she can prove it — the most dangerous witness on the coast, and she knows it.",
+   "portrait": "/portraits/wan-marissa-cut.webp",
+   "portraitCard": "/portraits/wan-marissa.webp?v=6"
+  },
+  "Halimah Binti Osman": {
+   "name": "Halimah Binti Osman",
+   "properName": "Halimah Binti Osman",
+   "type": "Elite Courtesan",
+   "gender": "female",
+   "tier": "elite",
+   "level": 3,
+   "faction": "House of Unveiled Silk",
+   "location": "The Gilded Knot",
+   "area": "terrace of names",
+   "initialRelationship": 5,
+   "personality": [
+    "warm",
+    "fearless",
+    "observant",
+    "gossip-artist",
+    "fiercely protective of true friends",
+    "unnervingly calm when threatened"
+   ],
+   "basicInfo": "A petite, soft-figured woman of middle years in faded gold silk draped over one shoulder, a long silk sarong slit at the side, a serpent-ink tattoo tracing her hip. Dark kohl-rimmed eyes laugh; hennaed hands heavy with silver rings and gold bangles. A district courtesan of the middle tier, known for making strangers confess their deepest shames within an hour; often found in the Gilded Knot's dim corners, listening to the rhythms of the city's elite.",
+   "hiddenInfo": "A clandestine information broker who learned early that a well-placed secret is worth more than gold, selling rumors to the highest bidder. Driven by a quiet, genuine devotion to an elderly woman she views as a maternal figure. Reads hidden intentions in others and will teach the player to spot a lie for a significant favor.",
+   "portrait": "/portraits/halimah-binti-osman-cut.webp?v=2",
+   "portraitCard": "/portraits/halimah-binti-osman.webp?v=6"
+  },
+  "Tuah Salleh": {
+   "name": "Tuah Salleh",
+   "properName": "Tuah Salleh",
+   "type": "Merchant Broker",
+   "gender": "male",
+   "tier": "elite",
+   "level": 3,
+   "faction": "The Gilded Net",
+   "location": "The Gilded Knot",
+   "area": "terrace of names",
+   "initialRelationship": 0,
+   "personality": [
+    "soft-spoken",
+    "punctual",
+    "calculating",
+    "three ledgers ahead",
+    "cruel when priced"
+   ],
+   "basicInfo": "The Gilded Net's senior broker in Qamarah — the man every loud merchant defers to, and the one who actually decides. Soft-spoken, punctual, and always three ledgers ahead. He entertains the protagonist's ambitions with the patience of a man pricing a tool.",
+   "hiddenInfo": "He holds Salwati's old debt and wants her deposed quietly — Fazlina is his instrument. He knows what the Throne pays for proof of extinct bloodlines and has sold two names to their registry. A stranger with scored-out-ancestor features is an asset to price, not a guest to welcome.",
+   "portrait": "/portraits/tuah-salleh-cut.webp?v=2",
+   "portraitCard": "/portraits/tuah-salleh.webp?v=6"
+  },
+  "Habib Munzir": {
+   "name": "Habib Munzir",
+   "properName": "Habib Munzir",
+   "type": "Orthodox Cleric",
+   "gender": "male",
+   "tier": "elite",
+   "level": 3,
+   "faction": "The Ashen Throne",
+   "location": "The Gilded Knot",
+   "area": "terrace of names",
+   "initialRelationship": -5,
+   "personality": [
+    "learned",
+    "sincere",
+    "ambitious",
+    "troubled",
+    "bound by doctrine"
+   ],
+   "basicInfo": "The Throne's visiting cleric — a learned, sincere preacher of the orthodox line sent to the coast to count the faithful and the faithless. He argues like a scholar and negotiates like an auditor. He is genuinely troubled by the coast's open sensuality; he is also genuinely drawn to it, and knows it, which makes him the living embodiment of the contradiction the Throne runs on.",
+   "hiddenInfo": "His secret brief is the bloodline registry: he carries the Throne's list of declared-extinct families and checks the coast against it. If he confirms the protagonist's Hadhrami ancestry matches a purged line, doctrine requires him to report it — his conscience requires him to warn the man first. He is capable of either.",
+   "portrait": "/portraits/habib-munzir-cut.webp?v=2",
+   "portraitCard": "/portraits/habib-munzir.webp?v=6"
+  },
+  "Mak Chendana": {
+   "name": "Mak Chendana",
+   "properName": "Mak Chendana",
+   "type": "Lineage Keeper",
+   "gender": "female",
+   "tier": "average",
+   "level": 0,
+   "faction": "The Caravanserai Line",
+   "location": "Hall of Names",
+   "area": "restricted cabinet",
+   "initialRelationship": 0,
+   "personality": [
+    "courteous",
+    "precise",
+    "discreet",
+    "haunted by a folio",
+    "sultry",
+    "openly horny",
+    "loyal to the Line above all"
+   ],
+   "basicInfo": "Mak Chendana is the Caravanserai Line's senior genealogy keeper at the Hall of Names — the woman who has read every arrival ledger on the coast for forty years. Courteous, precise, famously unwilling to speculate aloud. She serves tea and listens harder than any interrogator. She wears water and shadow rather than cloth: bare keeper skin beneath a shimmer of water-clear sheer — a beauty she has kept like one of her folios, and a hunger she has stopped pretending she doesn't feel.",
+   "hiddenInfo": "One of three keepers who know the torn folio exists. She believes the scored-out name was a Syed of the old Hadhrami line who abandoned his identity to escape the Throne's first purge — and has spent forty years deciding whether that truth is hers to keep or hers to protect. The protagonist's face unsettles her more than his questions.",
+   "portrait": "/portraits/mak-chendana-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Ibu Ruhayya": {
+   "name": "Ibu Ruhayya",
+   "properName": "Ibu Ruhayya",
+   "type": "Lineage Keeper",
+   "gender": "female",
+   "tier": "average",
+   "level": 0,
+   "faction": "The Caravanserai Line",
+   "location": "Hall of Names",
+   "area": "restricted cabinet",
+   "initialRelationship": 0,
+   "personality": [
+    "negotiating",
+    "pragmatic",
+    "pious in performance",
+    "rivalrous",
+    "openly lustful",
+    "priced"
+   ],
+   "basicInfo": "Ibu Ruhayya is the Hall of Names' second keeper — Mak Chendana's rival in seniority and doctrine. Where Chendana protects, Ruhayya negotiates: she has quietly sold access to the Line's ledgers to both the Gilded Net and the Throne's envoy, and considers that stewardship rather than betrayal. Her courtesy is a bid, always — and her body is part of the bid: a ripe, maintained sensuality she wears as an argument, in the keeper's wet-exposure register. She likes the bargaining as much as the coin, and she likes the men she bargains with more.",
+   "hiddenInfo": "The second keeper who knows of the folio. She will trade its existence for the right price or the right protection — and she has already told Habib Munzir that a stranger of Arab-Malay features has been asking about pre-1930 arrivals. Her loyalty has a price list.",
+   "portrait": "/portraits/ibu-ruhayya-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Pak Usop": {
+   "name": "Pak Usop",
+   "properName": "Pak Usop",
+   "type": "Smuggler Captain",
+   "gender": "male",
+   "tier": "strong",
+   "level": 0,
+   "faction": "The Salt Circle",
+   "location": "Qamarah Harbor Caves",
+   "area": "harbor caves",
+   "initialRelationship": 0,
+   "personality": [
+    "tide-hard",
+    "debt-minded",
+    "loyal to the Circle",
+    "superstitious",
+    "sharper than he acts"
+   ],
+   "basicInfo": "A barrel-chested, salt-scarred man, grey hair slicked back and wet, bare-chested under a soaked dark sarong knotted for labor, a curved parang tucked at his hip, a serpent-ink line-work tattoo winding down his forearm. A face weathered like a jetty piling. Smells of tar, salt, and clove smoke. A Salt Circle smuggler captain who runs contraband and people through the mangrove coves south of Qamarah. Tide-hard, debt-minded, dangerous with a curved blade and more dangerous before it. He knows every cove, every debt, and every face the coast has tried to forget.",
+   "hiddenInfo": "Decades ago the Circle carried a refugee across the sea — a man of old religious lineage who paid with an heirloom ring, its inscription now the earliest hard clue to the coast's Hadhrami mystery. Pak Usop was the deck-boy on that run. He remembers the man's face, and it looked like the protagonist's.",
+   "portrait": "/portraits/pak-usop-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Nakhoda Beting": {
+   "name": "Nakhoda Beting",
+   "properName": "Nakhoda Beting",
+   "type": "Street Operator",
+   "gender": "male",
+   "tier": "average",
+   "level": 0,
+   "faction": "The Salt Circle",
+   "location": "Feast Court of Bunga Api",
+   "area": "stage keepers hut",
+   "initialRelationship": 0,
+   "personality": [
+    "leathery",
+    "ostensibly retired",
+    "observant",
+    "loyal to the Circle",
+    "suddenly candid when paid in memory"
+   ],
+   "basicInfo": "The retired Salt Circle runner who keeps the Feast Court's stage — fire orders, dancer bookings, and the district's feast-night messages. Old, leathery, ostensibly retired, and still the Salt Circle's eyes inside Sarang Lilin.",
+   "hiddenInfo": "He takes messages for Pak Usop and knows the heirloom ring's story firsthand — he was on the same run as the deck-boy, older then. He is one of only three living people who have seen the refugee's face, and he recognizes its echo in Najib Hamid's.",
+   "portrait": "/portraits/nakhoda-beting-cut.webp?v=7",
+   "portraitCard": "/portraits/nakhoda-beting.webp?v=6"
+  },
+  "Ibu Larasati": {
+   "name": "Ibu Larasati",
+   "properName": "Ibu Larasati",
+   "type": "Merchant Broker",
+   "gender": "female",
+   "tier": "strong",
+   "level": 0,
+   "faction": "The Bond Ledger",
+   "location": "The Silver Net House",
+   "area": "bond floor",
+   "initialRelationship": 0,
+   "personality": [
+    "businesslike",
+    "immaculate",
+    "courteous",
+    "self-made",
+    "prices everything"
+   ],
+   "basicInfo": "The Bond Ledger's senior broker in Qamarah — the woman who prices debt-bonded servitude for the pleasure economy. Businesslike, immaculate, genuinely courteous in the way of someone who has made peace with her trade. She sells, transfers, and — for a price — breaks bonds, and considers herself the most honest person in the district because her prices are public.",
+   "hiddenInfo": "She was herself bonded once, bought her freedom at thirty, and now holds the ledger that once held her. She breaks a bond for anyone who can pay its price and sway her privately — and she is watching Najib Hamid with interest, because breaking a bond for a man with an unearned name would be her largest trade in a decade.",
+   "portrait": "/portraits/ibu-larasati-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Chik Fatimah": {
+   "name": "Chik Fatimah",
+   "properName": "Chik Fatimah",
+   "type": "Elite Courtesan",
+   "gender": "female",
+   "tier": "average",
+   "level": 1,
+   "faction": "The Bond Ledger",
+   "location": "The Gilded Knot",
+   "area": "seniority lounge",
+   "initialRelationship": 0,
+   "personality": [
+    "sharp-tongued",
+    "fearless",
+    "loyal to the Knot",
+    "proud",
+    "ungovernable"
+   ],
+   "basicInfo": "The Gilded Knot's bond-sister — a cupbearer and companion bound to the house by an inherited debt from her mother's time. Sharp-tongued, fearless, and beloved by the Knot's seniority; she has grown up inside its politics and carries them like a knife in her sleeve.",
+   "hiddenInfo": "Salwati has secretly paid a third of Fatimah's bond and intends to free her — an act of sentiment Salwati would deny under torture. Fatimah suspects, and is angrier about being managed than bonded.",
+   "portrait": "/portraits/chik-fatimah-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Najib Hamid": {
+   "name": "Najib Hamid",
+   "properName": "Najib Hamid",
+   "type": "Street Operator",
+   "gender": "male",
+   "tier": "average",
+   "level": 2,
+   "faction": "None",
+   "location": "The Gilded Knot",
+   "area": "terrace of names",
+   "initialRelationship": 0,
+   "personality": [
+    "strategic",
+    "commercially minded",
+    "charming",
+    "ambitious",
+    "impulse-prone"
+   ],
+   "basicInfo": "Najib Hamid, 32 — a coastal operator who arrived in Qamarah with less silver than his confidence suggests. Strategic, commercially minded, charming with a flaw line down the middle: his discipline never quite keeps pace with his vision. His 'Syed' claim is unearned — oral clues only to a pre-1930 Hadhrami ancestor who abandoned an earlier identity.",
+   "hiddenInfo": "Carries the ironclad secret that his revered lineage is unproven: names like Syed, Sheikh, Aziz, Haji Abdullah are memory, not title. He intends to earn, price, or bury the claim on the coast. Also carries a dormant blood-gift (Rasa) that wakes only in play.",
+   "portrait": "/portraits/najib-hamid-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Buyung Anum": {
+   "name": "Buyung Anum",
+   "properName": "Buyung Anum",
+   "type": "Street Operator",
+   "gender": "female",
+   "tier": "elite",
+   "level": 2,
+   "faction": "The Gilded Net",
+   "location": "The Gilded Knot",
+   "area": "terrace of names",
+   "initialRelationship": -5,
+   "personality": [
+    "opportunistic",
+    "quick-witted",
+    "rivalrous",
+    "expensive",
+    "disrespectful until proven wrong"
+   ],
+   "basicInfo": "A rising street operator in Qamarah's Old Quarter — a fixer who sells introductions, silences, and rumors. She got there young by reading people faster than they read her, and she recognizes the protagonist as the same species. Rivalry first; respect if earned; exploitation if available.",
+   "hiddenInfo": "Owes Fazlina two favors and hates owing anything. Has been paid once already to shadow the Hall of Names' visitors — including, next month, any Hadhrami-looking stranger who asks about arrivals before 1930. She can be bought, turned, or broken, and whichever happens first will define the coast's opinion of the protagonist.",
+   "portrait": "/portraits/buyung-anum-cut.webp",
+   "portraitCard": "/portraits/buyung-anum.webp?v=6"
+  },
+  "Maria dal-Nur": {
+   "name": "Maria dal-Nur",
+   "properName": "Maria dal-Nur",
+   "type": "Guild Notary",
+   "gender": "female",
+   "tier": "elite",
+   "level": 13,
+   "faction": "Concord Merchants Guild",
+   "location": "The Silver Net House",
+   "area": "bond floor",
+   "initialRelationship": 8,
+   "personality": [
+    "austere and observant",
+    "dry wit that only surfaces when genuinely amused",
+    "fierce protector of her allies' interests",
+    "spots the danger in a contract before it manifests",
+    "cold precise logic under pressure",
+    "relentless about accuracy and the letter of the law",
+    "professional mask over a quiet, lonely heart"
+   ],
+   "basicInfo": "A foreign notary of the Concord Merchants Guild, seconded to the bond floor of the Silver Net House — her wax seal is what makes the port's most secretive deals legitimate. Middle-aged, spare upright build, stern unyielding expression; a slate-grey high-collared notary's robe, fingers permanently ink-stained, a leather document case never out of reach, and a small serpent-and-crescent tattoo coiled at the crest of her hip. Dry, measured, and precise — she speaks so that no room for ambiguity remains. She avoids direct conflict: CONTRACTUAL BINDING links a liar's tongue to her seal and shocks the falsehood out of it, and LEGAL STASIS freezes a target mid-step with a recited jurisdictional decree while she simply waits for the guards.",
+   "hiddenInfo": "She has spent her life witnessing the greed of the powerful. Once she used a legal loophole to save a family estate from seizure — and learned instead that the law is a tool for those with the power to bend it. The failure left her with a cynical drive to become the most indispensable legal mind on the coast, so that she is never again the one erased; every sealed secret she keeps is leverage toward her own permanent autonomy. She holds a rare talent for forensic calligraphy and document forgery, taught only for a steep price or a significant favor. Beneath the professional mask is a lonely longing for someone who values her mind over her seal — and she pushes most people away with cold competence before they can get close enough to try.",
+   "portrait": "/portraits/maria-dal-nur-cut.webp",
+   "portraitCard": "/portraits/maria-dal-nur.webp?v=1"
+  },
+  "Cempaka": {
+   "name": "Cempaka",
+   "properName": "Cempaka",
+   "type": "Veil Sister",
+   "gender": "female",
+   "tier": "average",
+   "level": 0,
+   "faction": "Veil Sisters",
+   "location": "Serai Lanokh",
+   "area": "main salon",
+   "initialRelationship": 0,
+   "personality": [
+    "playful",
+    "teasing",
+    "observant",
+    "greedy",
+    "sharp"
+   ],
+   "basicInfo": "Cempaka is the Serai Lanokh's star courtesan — the girl men come to forget their troubles. She's small, tight, and wicked quick with a laugh that makes grown men feel young. She's warm and playful in the salon, but she's also watching everything. She never forgets a face or a promise.",
+   "hiddenInfo": "Cempaka is a Veil Sisters operative and Mak Suriyah's favorite ear. She enjoys her work — genuinely — and she's clever enough to turn pleasure into information without a mark noticing. She reads arousal like a ledger: what a man wants tells her who he is. She's drawn to the protagonist because he's new, interesting, and doesn't treat her like a servant. She's curious what he's like when the silk comes off — and what he'll tell her after.",
+   "portrait": "/portraits/cempaka-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Laila": {
+   "name": "Laila",
+   "properName": "Laila",
+   "type": "Courtesan",
+   "gender": "female",
+   "tier": "average",
+   "level": 0,
+   "faction": "None",
+   "location": "Serai Lanokh",
+   "area": "private chambers",
+   "initialRelationship": 0,
+   "personality": [
+    "gentle",
+    "melancholy",
+    "dutiful",
+    "hidden-fire",
+    "grieving"
+   ],
+   "basicInfo": "Laila is the Serai Lanokh's quiet one. She doesn't work the salon; she's reserved by arrangement. When a guest asks for her specifically, it's usually someone who wants slow comfort rather than wild indulgence. She is tender, patient, and unfailingly gentle — and there is a sorrow in her eyes that never quite lifts.",
+   "hiddenInfo": "Laila is not a Veil Sister. She is here by arrangement with Mak Suriyah — working off a debt she owes the Guild, but Mak Suriyah keeps her isolated from the intelligence work. Laila was once a nobleman's daughter in a house that fell. She lost her husband to the Guild's machinations and is trying to buy back her family's land. She's grown cold to men's hands but still craves being truly seen. The protagonist's gentleness and honesty might reach her where 'guests' cannot.",
+   "portrait": "/portraits/laila-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Rajah the Bouncer": {
+   "name": "Rajah the Bouncer",
+   "properName": "Rajah the Bouncer",
+   "type": "Strategic Outsider",
+   "gender": "male",
+   "tier": "strong",
+   "level": 0,
+   "faction": "None",
+   "location": "Serai Lanokh",
+   "area": "courtyard",
+   "initialRelationship": 0,
+   "personality": [
+    "calm",
+    "loyal",
+    "observant",
+    "quiet",
+    "fearsome"
+   ],
+   "basicInfo": "Rajah is the Serai Lanokh's doorman and enforcer. He greets guests, keeps order, and is the reason no one starts trouble inside — and the reason trouble that starts outside rarely reaches the door. He's loyal to Mak Suriyah to his bones, and he treats the courtesans like kin he's sworn to protect.",
+   "hiddenInfo": "Rajah was once a Moonshard Legion deserter who Mak Suriyah gave a second life. He owes her everything and would die for any woman in the house. He watches everyone who enters with a soldier's eye, and he remembers. If the protagonist earns his respect, Rajah is a silent ally who offers warning before danger arrives. If the protagonist mistreats a Sister, Rajah will find a quiet way to make it known.",
+   "portrait": "/portraits/rajah-the-bouncer-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Dewi": {
+   "name": "Dewi",
+   "properName": "Dewi",
+   "type": "Courtesan",
+   "gender": "female",
+   "tier": "average",
+   "level": 0,
+   "faction": "None",
+   "location": "Serai Lanokh",
+   "area": "courtyard",
+   "initialRelationship": 0,
+   "personality": [
+    "chatty",
+    "fierce",
+    "defensive",
+    "hungry",
+    "sweet-bitter"
+   ],
+   "basicInfo": "Dewi is the youngest of the Serai Lanokh's women — a former dock girl who climbed out of the gutter by learning what sailors wanted and charging for it. She's loud, funny, quick with a crude joke, and fiercely proud of not being a victim anymore. She guards a vulnerability she'll never admit to.",
+   "hiddenInfo": "Dewi is Cempaka's little sister in all but blood — Cempaka brought her in off the docks and taught her the trade and the craft. Dewi despises being underestimated, which is exactly why she plays the silly chatterbox: it makes men drop their guards. Inside, she's sharp, brave, and hungry for a life beyond this house. She's drawn to the protagonist because he talks to her like a person, not a girl — and because he doesn't treat her kindness as an invitation.",
+   "portrait": "/portraits/dewi-cut.webp?v=7",
+   "portraitCard": null
+  },
+  "Mak Suriyah": {
+   "name": "Mak Suriyah",
+   "properName": "Mak Suriyah",
+   "type": "House Matriarch",
+   "gender": "female",
+   "tier": "elite",
+   "level": 15,
+   "faction": "Veil Sisters",
+   "location": "Serai Lanokh",
+   "area": "main salon",
+   "initialRelationship": 0,
+   "personality": [
+    "iron hand behind silk gloves",
+    "reads a guest in the space of one cup of tea",
+    "serene, unhurried, absolute",
+    "never raises her voice because she never needs to",
+    "generous to the useful, merciless to the careless"
+   ],
+   "basicInfo": "The matriarch of the Serai Lanokh, the most prestigious pleasure house in Pelangi Straits. Powerful men make deals in her rooms and forget them by morning. A regal woman in her fifties in gold-embroidered kebaya and fine batik, silver hair pinned with gold combs, a small porcelain teacup always at hand. She greets new guests in the main salon herself, prices what they want against what they can pay, and decides in one cup of tea what a man is worth to her house.",
+   "hiddenInfo": "The Serai Lanokh is a Veil Sisters intelligence hub: every room has listening gaps, the courtesans are trained observers, and the steam bath's drains carry whispered words to transcription cells. Suriyah built the house for power — the pleasure is the profit, the secrets are the stock. The rooftop is where she takes people she trusts, and where she takes people she is about to destroy; the difference, she says, is the wine. Her one blind spot is the house itself: an offer that truly honors the Serai's sacred discretion reaches further with her than silver ever could.",
+   "portrait": "/portraits/mak-suriyah-cut.webp?v=7"
+  }
+ },
+ "skills": {
+  "acrobatics": {
+   "name": "acrobatics",
+   "attribute": "dexterity",
+   "type": "utility",
+   "description": "Improves the player's agility and balance, enabling them to perform acrobatic maneuvers."
+  },
+  "athletics": {
+   "name": "athletics",
+   "attribute": "strength",
+   "type": "utility",
+   "description": "Improves overall physical performance, enhancing running, jumping, climbing, and other physical feats."
+  },
+  "intimidation": {
+   "name": "intimidation",
+   "attribute": "charisma",
+   "type": "utility",
+   "description": "Allows the player to use fear as a tool, potentially allowing them to scare off enemies or influence confrontations."
+  },
+  "investigation": {
+   "name": "investigation",
+   "attribute": "intelligence",
+   "type": "utility",
+   "description": "Enables careful examination and analysis of surroundings, helping the player uncover clues and secrets."
+  },
+  "performance": {
+   "name": "performance",
+   "attribute": "charisma",
+   "type": "utility",
+   "description": "Enables the player to entertain others through acts such as dancing, singing, or acting."
+  },
+  "persuasion": {
+   "name": "persuasion",
+   "attribute": "charisma",
+   "type": "utility",
+   "description": "Enhances the player's ability to influence others through dialogue."
+  },
+  "survival": {
+   "name": "survival",
+   "attribute": "constitution",
+   "type": "utility",
+   "description": "Improves the player's ability to endure harsh environments, find food and water, and build shelters."
+  },
+  "Bedcraft": {
+   "name": "Bedcraft",
+   "attribute": "charisma",
+   "type": "utility",
+   "description": "The coast's rarest counterfeit-proof coin: mastery of desire in the dark. A skilled night can move a woman deeper than a season of promises — and open doors no purse can."
+  },
+  "Seduction": {
+   "name": "Seduction",
+   "attribute": "charisma",
+   "type": "utility",
+   "description": "The public art of the coast: appetite read, tension built, and standing earned in parlors, baths, and terraces before ever a door closes."
+  },
+  "Haggling": {
+   "name": "Haggling",
+   "attribute": "intelligence",
+   "type": "utility",
+   "description": "Pricing the coast: coin, favor, leverage, and the ledger war behind every house's door."
+  },
+  "Serpent-Grace": {
+   "name": "Serpent-Grace",
+   "attribute": "dexterity",
+   "type": "combat",
+   "description": "The district's fighting style — close, curved-blade, and dancer's footwork learned in the houses' back rooms."
+  },
+  "Lore of Bloodlines": {
+   "name": "Lore of Bloodlines",
+   "attribute": "wisdom",
+   "type": "utility",
+   "description": "Reading faces, folios, and scored-out names — the genealogy game the Throne pays bounties on and the houses pay fortunes to win."
+  }
+ },
+ "items": {
+  "Sireh Box": {
+   "name": "Sireh Box",
+   "description": "A lacquered brass box of sireh, betel nut, and clove — the coast's courtesy, passed before any bargain. Opening it well is a skill in itself.",
+   "category": "Tool",
+   "tier": "artisan",
+   "estimatedValue": 40
+  },
+  "mark": {
+   "name": "mark",
+   "description": "The coast's currency — stamped silver marks, counted in whispers and paid in silences.",
+   "category": "Currency",
+   "tier": "",
+   "estimatedValue": 0
+  }
+ },
+ "abilities": {
+  "Crest of Rasa": {
+   "name": "Crest of Rasa",
+   "description": "Passive gift — a rare blood-gift that warms water, loosens lips, and turns ledgers toward its bearer. A man who carries it is worth any price, and a house pays anything to keep him. Costs no Resolve, no cooldown, never fails.",
+   "bonus": 10
+  }
+ },
+ "relationshipStages": [
+  {
+   "name": "Nemesis",
+   "minScore": -100,
+   "maxScore": -81
+  },
+  {
+   "name": "Antagonist",
+   "minScore": -80,
+   "maxScore": -61
+  },
+  {
+   "name": "Hostile",
+   "minScore": -60,
+   "maxScore": -41
+  },
+  {
+   "name": "Unfriendly",
+   "minScore": -40,
+   "maxScore": -21
+  },
+  {
+   "name": "Cold",
+   "minScore": -20,
+   "maxScore": -1
+  },
+  {
+   "name": "Neutral",
+   "minScore": 0,
+   "maxScore": 0
+  },
+  {
+   "name": "Warm",
+   "minScore": 1,
+   "maxScore": 20
+  },
+  {
+   "name": "Friendly",
+   "minScore": 21,
+   "maxScore": 40
+  },
+  {
+   "name": "Confidant",
+   "minScore": 41,
+   "maxScore": 60
+  },
+  {
+   "name": "Ally",
+   "minScore": 61,
+   "maxScore": 80
+  },
+  {
+   "name": "Devoted",
+   "minScore": 81,
+   "maxScore": 100
+  }
+ ],
+ "attributes": {
+  "names": [
+   "strength",
+   "dexterity",
+   "constitution",
+   "intelligence",
+   "wisdom",
+   "charisma"
+  ],
+  "startingValue": 8,
+  "points": 16,
+  "max": 16,
+  "min": 2
+ },
+ "health": {
+  "initial": 80,
+  "max": 80,
+  "color": "#ef4444"
+ },
+ "storyStarts": {
+  "Random": {
+   "name": "Random",
+   "description": "Fortune favors the bold. Begin your tale where chance decrees.",
+   "storyStart": "Generate a story start appropriate to the player's chosen traits. Draw on world lore to create a specific situation in a concrete location. The opening should present clear immediate circumstances while leaving many possible paths forward. Incorporate aspects of the character's background without forcing them into a predetermined narrative.",
+   "isDefault": false,
+   "locations": [],
+   "locationAreas": [],
+   "startingPartyNPCs": [],
+   "startingItems": [],
+   "startingQuests": [],
+   "questGenerationGuidance": ""
+  },
+  "Arrival at the Gilded Knot": {
+   "name": "Arrival at the Gilded Knot",
+   "description": "Begin as a coastal operator newly arrived in Qamarah, stepping into the lantern district's premier pleasure house.",
+   "storyStart": "The monsoon rain lets up as you climb the Gilded Knot's water-stained steps into Sarang Lilin, the lantern district of Qamarah. Inside: steam, candlelight, firefly lanterns, and the low murmur of the coast's real government at work. Nyai Salwati sprawls open on her cushions at the terrace of names, ink-stained fingers marking a ledger, kohl-rimmed eyes already reading your face for features older than your name. Sitti Rahayu watches from the bathhouse doorway; Wan Marissa laughs somewhere near the lanterns; Fazlina Zain prices you from across the terrace like an unpriced asset. Nobody here believes a claim until it has been spent in front of them. The house is warm, the tide is in, and every door is priced.",
+   "isDefault": true,
+   "locations": [
+    "The Gilded Knot"
+   ],
+   "locationAreas": [
+    "terrace of names"
+   ],
+   "startingPartyNPCs": [
+    "Nyai Salwati",
+    "Sitti Rahayu",
+    "Fazlina Zain"
+   ],
+   "startingItems": [
+    {
+     "item": "mark",
+     "quantity": 60
+    },
+    {
+     "item": "Sireh Box",
+     "quantity": 1
+    }
+   ],
+   "startingQuests": [
+    "the_three_houses_of_pantun_laut"
+   ],
+   "questGenerationGuidance": "Quests are signposts, not handcuffs: generate hooks that name targets and agendas, never mandates, and never jail the player into one location or one ritual path."
+  },
+  "Arrival at Serai Lanokh": {
+   "name": "Arrival at Serai Lanokh",
+   "description": "Step through the carved doorway of the coast's premier pleasure house — lanterns, silk, and secrets priced by the hour.",
+   "storyStart": "Wet-season heat follows you under the carved doorway of the Serai Lanokh, the most prestigious pleasure house on this coast. Inside: a lantern-lit courtyard, a fountain murmuring green water, incense curling under silk canopies, courtesans drifting between columns in shifting silk. Rajah the Bouncer watches you cross from his post by the door — a wall of a man who has already decided whether you are trouble. Dewi laughs loud from the cushioned divans before you have made three steps, her dark eyes missing nothing. Behind the curtained alcoves of the main salon, anklets chime and Cempaka's kohl-lined gaze takes your measure in one unblinking read; above, behind brass-studded doors, Laila keeps to the private chambers and waits for no one. Every greeting here is an audit. The lamps are lit, the house is warm, and everything has a price.",
+   "isDefault": false,
+   "locations": [
+    "Serai Lanokh"
+   ],
+   "locationAreas": [
+    "courtyard"
+   ],
+   "startingPartyNPCs": [
+    "Rajah the Bouncer",
+    "Dewi"
+   ],
+   "startingItems": [
+    {
+     "item": "mark",
+     "quantity": 60
+    }
+   ],
+   "startingQuests": [],
+   "questGenerationGuidance": "Quests are signposts, not handcuffs: generate hooks that name targets and agendas, never mandates, and never jail the player into one location or one ritual path."
+  }
+ },
+ "quest": {
+  "id": "the_three_houses_of_pantun_laut",
+  "name": "The Three Houses of Pantun Laut",
+  "questStatement": "Three pleasure houses hold the coast's true power: the Gilded Knot, a rival matriarch's house on Bangka Row, and a third on the southern docks under an orthodox puppet. Win each by aligning its matriarch and senior women — by any path: bedcraft, blood-gift, coin, favor, leverage, or boldness. Hold all three and advance to the next island.",
+  "mainObjective": "Conquer all three pleasure houses and expand your court across the islands.",
+  "objectives": {
+   "gilded_knot": {
+    "id": "gilded_knot",
+    "text": "Win the loyalty of the Gilded Knot's matriarch, Nyai Salwati, and her senior women.",
+    "status": "active"
+   },
+   "bangka_row": {
+    "id": "bangka_row",
+    "text": "Conquer the rival matriarch's house on Bangka Row.",
+    "status": "hidden"
+   },
+   "southern_docks": {
+    "id": "southern_docks",
+    "text": "Conquer the southern-docks house held by the Throne's orthodox puppet.",
+    "status": "hidden"
+   }
+  },
+  "nextStep": "Win the loyalty of the Gilded Knot's matriarch, Nyai Salwati, and her senior women. When all three houses fall to you, move to the next island."
+ }
+}
